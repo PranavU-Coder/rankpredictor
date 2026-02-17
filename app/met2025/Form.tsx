@@ -77,7 +77,7 @@ const Form = ({ sendBoards, sendMET }: FormProp) => {
           min="0"
           max="100"
           step="0.01"
-          value={boardPercentage || ""}
+          value={boardPercentage ?? ""}
           onChange={(e) => handleBoardChange(Number(e.target.value))}
           className="w-full mb-4 p-2 bg-gray-700 text-white rounded text-center border border-gray-600 focus:border-green-500 focus:outline-none"
         />
@@ -90,7 +90,7 @@ const Form = ({ sendBoards, sendMET }: FormProp) => {
           id="metMarks"
           min="0"
           max="240"
-          value={metMarks || ""}
+          value={metMarks ?? ""}
           onChange={(e) => handleMetChange(Number(e.target.value))}
           className="w-full mb-4 p-2 bg-gray-700 text-white rounded text-center border border-gray-600 focus:border-green-500 focus:outline-none"
         />

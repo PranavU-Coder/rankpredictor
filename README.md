@@ -1,3 +1,5 @@
+# Rank Predictor
+
 ![Next.js](https://img.shields.io/badge/Framework-Next.js%2016-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -7,8 +9,6 @@
 ![Recharts](https://img.shields.io/badge/Charts-Recharts-22B5BF)
 ![KaTeX](https://img.shields.io/badge/Math-KaTeX-008080)
 ![Vercel Analytics](https://img.shields.io/badge/Analytics-Vercel-black?logo=vercel)
-
-# Rank Predictor
 
 A transparent, data-driven rank prediction platform for various entrance exams, created by [druwn](https://github.com/druwn) and [PixelHalide](https://github.com/PixelHalide).
 
@@ -86,12 +86,12 @@ this will pick up all necessary packages from bun.lock file
 please run
 
 ```bash
-bun prettier write .
+bun prettier --write .
 ```
 
-this will format all necessary code in accordance to ESLint.
+this will format all necessary code in accordance to prettier-dev-tool.
 
-Please create any issues you find for this website at [here](https://github.com/PixelHalide/rankpredictor/issues)
+Please report any issues you find on the [issue tracker](https://github.com/PixelHalide/rankpredictor/issues).
 
 ## Contact
 

@@ -52,7 +52,7 @@ const GpaCalc = () => {
   const sendSemester = (sem: number) => {
     const isFirstYear = sem === 1 || sem === 2;
     set_cycle_section_open(isFirstYear);
-    if (isFirstYear && sem != semester) set_stream_section_open(false); // Reprompt user for stream if they change semester
+    if (isFirstYear && sem !== semester) set_stream_section_open(false);
     set_course_section_open(!isFirstYear);
     set_honors_section_open(sem === 8);
     set_table_section_open(false);
@@ -74,7 +74,6 @@ const GpaCalc = () => {
   };
   const handleHonorsChange = (checked: boolean) => {
     set_honors(checked);
-    console.log("Honors selected:", checked);
   };
 
   return (
